@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+a {
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+/*----------HEADER----------*/
+header {
+    background-color: #EAC926;
+    height: 10%;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.buscador #search{
+    width: 50%;
+}
+
+.menu {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.menu:hover {
+    background-color: #0022AA;
+    cursor: pointer; 
+}
+
+/*----------MAIN----------*/
+main {
+    background-color: #ebebeb;
+    width: 90%;
+    margin: auto;
+}
+
+p{
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h2.ofertas {
+    font-size: 24px;
+}
+
+/*----------PRODUCTOS----------*/
+article.producto {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.producto img {
+    width:80%;
+}
+
+.camion {
+    color: #39b54a;
+}
+
+div.precio {
+    font-size: 18px;
+}
+
+div.descuento {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+div.descripcion {
+    font-size: 16px;
+    color: #666;
+
+}
+
+/*----------FOOTER----------*/
+footer {
+    background-color: white;
+    padding: 20px 5px;
+}
+
+footer article {
+    margin: 20px 0px;
+}
+
+footer i {
+    color: #03264C;
+}
+
+section h2 {
+    margin: 20px 0px;
+}
+
+/*----------REGISTER----------*/
+.div-inputs input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.div-submit input{
+    color: white;
+    background-color: #0044AA;
+}
+
+.div-submit input:hover{
+    background-color: #0022AA;
+}
+
+
+/*----------LOGIN----------*/
+#reset {
+    color: white;
+    background-color:  #AA0044;
+}
+
+#reset:hover {
+    background-color:  #CC1155;   
+}
+
